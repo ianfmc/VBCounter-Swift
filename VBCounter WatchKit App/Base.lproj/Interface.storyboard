@@ -16,16 +16,16 @@
                     <items>
                         <group width="1" alignment="left" layout="vertical" id="heL-ud-f6P">
                             <items>
-                                <label width="1" alignment="center" text="White" textAlignment="center" id="afv-q0-Fv3">
-                                    <accessibilityTraits key="accessibilityTraits" none="YES"/>
-                                    <fontDescription key="font" type="system" pointSize="48"/>
-                                </label>
-                                <button width="1" alignment="left" title="Red" id="hUW-ge-3jY">
+                                <button width="1" height="64" alignment="left" title="0" id="hUW-ge-3jY">
+                                    <color key="backgroundColor" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" type="system" pointSize="36"/>
                                     <connections>
                                         <action selector="changeColorToRed" destination="SUK-Ke-GQw" id="IWf-tv-gQo"/>
                                     </connections>
                                 </button>
-                                <button width="1" alignment="left" title="Green" id="Ak2-3K-vgQ">
+                                <button width="1" height="64" alignment="left" title="0" id="Ak2-3K-vgQ">
+                                    <color key="backgroundColor" red="0.015686274510000001" green="0.87058823529999996" blue="0.4431372549" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" type="system" pointSize="36"/>
                                     <connections>
                                         <action selector="changeColorToGreen" destination="SUK-Ke-GQw" id="mez-wT-y3u"/>
                                     </connections>
@@ -34,8 +34,8 @@
                         </group>
                     </items>
                     <connections>
-                        <outlet property="changeColorToGreen" destination="Ak2-3K-vgQ" id="bJE-0q-NlH"/>
-                        <outlet property="colorLabel" destination="afv-q0-Fv3" id="wXF-iz-4h2"/>
+                        <outlet property="greenButton" destination="Ak2-3K-vgQ" id="F8F-Uc-Gt3"/>
+                        <outlet property="redButton" destination="hUW-ge-3jY" id="D01-nc-gFA"/>
                     </connections>
                 </controller>
             </objects>

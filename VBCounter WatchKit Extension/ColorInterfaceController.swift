@@ -12,8 +12,18 @@ import Foundation
 
 class ColorInterfaceController: WKInterfaceController {
     
-    @IBOutlet var colorLabel : WKInterfaceLabel!
+    var redCount : Int
+    var greenCount : Int
+
+    @IBOutlet var redButton: WKInterfaceButton!
+    @IBOutlet var greenButton: WKInterfaceButton!
     
+    override init() {
+        self.redCount = 0
+        self.greenCount = 0
+        
+        super.init()
+    }
 
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
@@ -32,12 +42,12 @@ class ColorInterfaceController: WKInterfaceController {
     }
 
     @IBAction func changeColorToRed() {
-        colorLabel.setText("Red")
-        colorLabel.setTextColor(UIColor.red)
+        redCount = redCount + 1
+        redButton.setTitle(String(redCount))
     }
     
     @IBAction func changeColorToGreen() {
-        colorLabel.setText("Green")
-        colorLabel.setTextColor(UIColor.green)
+        greenCount = greenCount + 1
+        greenButton.setTitle(String(greenCount))
     }
 }
