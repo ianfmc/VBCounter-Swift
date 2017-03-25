@@ -14,18 +14,22 @@
             <objects>
                 <controller identifier="ColorSwitch" id="SUK-Ke-GQw" customClass="ColorInterfaceController" customModule="VBCounter_WatchKit_Extension">
                     <items>
-                        <group width="1" alignment="left" layout="vertical" id="heL-ud-f6P">
+                        <group width="1" alignment="left" id="tpq-ax-wBF">
                             <items>
-                                <button width="1" height="64" alignment="left" title="0" id="hUW-ge-3jY">
+                                <button width="1" height="80" alignment="left" title="0" id="hUW-ge-3jY">
                                     <color key="backgroundColor" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
-                                    <fontDescription key="font" type="system" pointSize="36"/>
+                                    <fontDescription key="font" type="system" weight="semibold" pointSize="48"/>
                                     <connections>
                                         <action selector="changeColorToRed" destination="SUK-Ke-GQw" id="IWf-tv-gQo"/>
                                     </connections>
                                 </button>
-                                <button width="1" height="64" alignment="left" title="0" id="Ak2-3K-vgQ">
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" layout="vertical" id="heL-ud-f6P">
+                            <items>
+                                <button width="1" height="80" alignment="left" title="0" id="Ak2-3K-vgQ">
                                     <color key="backgroundColor" red="0.015686274510000001" green="0.87058823529999996" blue="0.4431372549" alpha="1" colorSpace="calibratedRGB"/>
-                                    <fontDescription key="font" type="system" pointSize="36"/>
+                                    <fontDescription key="font" type="system" weight="semibold" pointSize="48"/>
                                     <connections>
                                         <action selector="changeColorToGreen" destination="SUK-Ke-GQw" id="mez-wT-y3u"/>
                                     </connections>
