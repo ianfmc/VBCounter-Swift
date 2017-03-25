@@ -1,0 +1,799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46F16EFD1E86E2C500F2B3E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F16EFC1E86E2C500F2B3E3 /* AppDelegate.swift */; };
+		46F16EFF1E86E2C500F2B3E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F16EFE1E86E2C500F2B3E3 /* ViewController.swift */; };
+		46F16F021E86E2C500F2B3E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46F16F001E86E2C500F2B3E3 /* Main.storyboard */; };
+		46F16F041E86E2C500F2B3E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46F16F031E86E2C500F2B3E3 /* Assets.xcassets */; };
+		46F16F071E86E2C500F2B3E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46F16F051E86E2C500F2B3E3 /* LaunchScreen.storyboard */; };
+		46F16F121E86E2C500F2B3E3 /* VBCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F16F111E86E2C500F2B3E3 /* VBCounterTests.swift */; };
+		46F16F1D1E86E2C500F2B3E3 /* VBCounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F16F1C1E86E2C500F2B3E3 /* VBCounterUITests.swift */; };
+		46F16F221E86E2C500F2B3E3 /* VBCounter WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 46F16F211E86E2C500F2B3E3 /* VBCounter WatchKit App.app */; };
+		46F16F281E86E2C500F2B3E3 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46F16F261E86E2C500F2B3E3 /* Interface.storyboard */; };
+		46F16F2A1E86E2C500F2B3E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46F16F291E86E2C500F2B3E3 /* Assets.xcassets */; };
+		46F16F311E86E2C500F2B3E3 /* VBCounter WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 46F16F301E86E2C500F2B3E3 /* VBCounter WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		46F16F381E86E2C500F2B3E3 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F16F371E86E2C500F2B3E3 /* InterfaceController.swift */; };
+		46F16F3A1E86E2C500F2B3E3 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F16F391E86E2C500F2B3E3 /* ExtensionDelegate.swift */; };
+		46F16F3C1E86E2C500F2B3E3 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F16F3B1E86E2C500F2B3E3 /* NotificationController.swift */; };
+		46F16F3E1E86E2C500F2B3E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46F16F3D1E86E2C500F2B3E3 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46F16F0E1E86E2C500F2B3E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46F16EF11E86E2C500F2B3E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46F16EF81E86E2C500F2B3E3;
+			remoteInfo = VBCounter;
+		};
+		46F16F191E86E2C500F2B3E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46F16EF11E86E2C500F2B3E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46F16EF81E86E2C500F2B3E3;
+			remoteInfo = VBCounter;
+		};
+		46F16F231E86E2C500F2B3E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46F16EF11E86E2C500F2B3E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46F16F201E86E2C500F2B3E3;
+			remoteInfo = "VBCounter WatchKit App";
+		};
+		46F16F321E86E2C500F2B3E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46F16EF11E86E2C500F2B3E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46F16F2F1E86E2C500F2B3E3;
+			remoteInfo = "VBCounter WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		46F16F451E86E2C500F2B3E3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				46F16F311E86E2C500F2B3E3 /* VBCounter WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F16F491E86E2C500F2B3E3 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				46F16F221E86E2C500F2B3E3 /* VBCounter WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		46F16EF91E86E2C500F2B3E3 /* VBCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VBCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F16EFC1E86E2C500F2B3E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46F16EFE1E86E2C500F2B3E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46F16F011E86E2C500F2B3E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46F16F031E86E2C500F2B3E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46F16F061E86E2C500F2B3E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46F16F081E86E2C500F2B3E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46F16F0D1E86E2C500F2B3E3 /* VBCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VBCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F16F111E86E2C500F2B3E3 /* VBCounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VBCounterTests.swift; sourceTree = "<group>"; };
+		46F16F131E86E2C500F2B3E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46F16F181E86E2C500F2B3E3 /* VBCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VBCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F16F1C1E86E2C500F2B3E3 /* VBCounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VBCounterUITests.swift; sourceTree = "<group>"; };
+		46F16F1E1E86E2C500F2B3E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46F16F211E86E2C500F2B3E3 /* VBCounter WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VBCounter WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F16F271E86E2C500F2B3E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		46F16F291E86E2C500F2B3E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46F16F2B1E86E2C500F2B3E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46F16F301E86E2C500F2B3E3 /* VBCounter WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "VBCounter WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F16F361E86E2C500F2B3E3 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		46F16F371E86E2C500F2B3E3 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		46F16F391E86E2C500F2B3E3 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		46F16F3B1E86E2C500F2B3E3 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		46F16F3D1E86E2C500F2B3E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46F16F3F1E86E2C500F2B3E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46F16EF61E86E2C500F2B3E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F16F0A1E86E2C500F2B3E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F16F151E86E2C500F2B3E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F16F2D1E86E2C500F2B3E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46F16EF01E86E2C500F2B3E3 = {
+			isa = PBXGroup;
+			children = (
+				46F16EFB1E86E2C500F2B3E3 /* VBCounter */,
+				46F16F101E86E2C500F2B3E3 /* VBCounterTests */,
+				46F16F1B1E86E2C500F2B3E3 /* VBCounterUITests */,
+				46F16F251E86E2C500F2B3E3 /* VBCounter WatchKit App */,
+				46F16F341E86E2C500F2B3E3 /* VBCounter WatchKit Extension */,
+				46F16EFA1E86E2C500F2B3E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46F16EFA1E86E2C500F2B3E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46F16EF91E86E2C500F2B3E3 /* VBCounter.app */,
+				46F16F0D1E86E2C500F2B3E3 /* VBCounterTests.xctest */,
+				46F16F181E86E2C500F2B3E3 /* VBCounterUITests.xctest */,
+				46F16F211E86E2C500F2B3E3 /* VBCounter WatchKit App.app */,
+				46F16F301E86E2C500F2B3E3 /* VBCounter WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46F16EFB1E86E2C500F2B3E3 /* VBCounter */ = {
+			isa = PBXGroup;
+			children = (
+				46F16EFC1E86E2C500F2B3E3 /* AppDelegate.swift */,
+				46F16EFE1E86E2C500F2B3E3 /* ViewController.swift */,
+				46F16F001E86E2C500F2B3E3 /* Main.storyboard */,
+				46F16F031E86E2C500F2B3E3 /* Assets.xcassets */,
+				46F16F051E86E2C500F2B3E3 /* LaunchScreen.storyboard */,
+				46F16F081E86E2C500F2B3E3 /* Info.plist */,
+			);
+			path = VBCounter;
+			sourceTree = "<group>";
+		};
+		46F16F101E86E2C500F2B3E3 /* VBCounterTests */ = {
+			isa = PBXGroup;
+			children = (
+				46F16F111E86E2C500F2B3E3 /* VBCounterTests.swift */,
+				46F16F131E86E2C500F2B3E3 /* Info.plist */,
+			);
+			path = VBCounterTests;
+			sourceTree = "<group>";
+		};
+		46F16F1B1E86E2C500F2B3E3 /* VBCounterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46F16F1C1E86E2C500F2B3E3 /* VBCounterUITests.swift */,
+				46F16F1E1E86E2C500F2B3E3 /* Info.plist */,
+			);
+			path = VBCounterUITests;
+			sourceTree = "<group>";
+		};
+		46F16F251E86E2C500F2B3E3 /* VBCounter WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				46F16F261E86E2C500F2B3E3 /* Interface.storyboard */,
+				46F16F291E86E2C500F2B3E3 /* Assets.xcassets */,
+				46F16F2B1E86E2C500F2B3E3 /* Info.plist */,
+			);
+			path = "VBCounter WatchKit App";
+			sourceTree = "<group>";
+		};
+		46F16F341E86E2C500F2B3E3 /* VBCounter WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				46F16F371E86E2C500F2B3E3 /* InterfaceController.swift */,
+				46F16F391E86E2C500F2B3E3 /* ExtensionDelegate.swift */,
+				46F16F3B1E86E2C500F2B3E3 /* NotificationController.swift */,
+				46F16F3D1E86E2C500F2B3E3 /* Assets.xcassets */,
+				46F16F3F1E86E2C500F2B3E3 /* Info.plist */,
+				46F16F351E86E2C500F2B3E3 /* Supporting Files */,
+			);
+			path = "VBCounter WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		46F16F351E86E2C500F2B3E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46F16F361E86E2C500F2B3E3 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46F16EF81E86E2C500F2B3E3 /* VBCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46F16F4A1E86E2C500F2B3E3 /* Build configuration list for PBXNativeTarget "VBCounter" */;
+			buildPhases = (
+				46F16EF51E86E2C500F2B3E3 /* Sources */,
+				46F16EF61E86E2C500F2B3E3 /* Frameworks */,
+				46F16EF71E86E2C500F2B3E3 /* Resources */,
+				46F16F491E86E2C500F2B3E3 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46F16F241E86E2C500F2B3E3 /* PBXTargetDependency */,
+			);
+			name = VBCounter;
+			productName = VBCounter;
+			productReference = 46F16EF91E86E2C500F2B3E3 /* VBCounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46F16F0C1E86E2C500F2B3E3 /* VBCounterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46F16F4D1E86E2C500F2B3E3 /* Build configuration list for PBXNativeTarget "VBCounterTests" */;
+			buildPhases = (
+				46F16F091E86E2C500F2B3E3 /* Sources */,
+				46F16F0A1E86E2C500F2B3E3 /* Frameworks */,
+				46F16F0B1E86E2C500F2B3E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46F16F0F1E86E2C500F2B3E3 /* PBXTargetDependency */,
+			);
+			name = VBCounterTests;
+			productName = VBCounterTests;
+			productReference = 46F16F0D1E86E2C500F2B3E3 /* VBCounterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46F16F171E86E2C500F2B3E3 /* VBCounterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46F16F501E86E2C500F2B3E3 /* Build configuration list for PBXNativeTarget "VBCounterUITests" */;
+			buildPhases = (
+				46F16F141E86E2C500F2B3E3 /* Sources */,
+				46F16F151E86E2C500F2B3E3 /* Frameworks */,
+				46F16F161E86E2C500F2B3E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46F16F1A1E86E2C500F2B3E3 /* PBXTargetDependency */,
+			);
+			name = VBCounterUITests;
+			productName = VBCounterUITests;
+			productReference = 46F16F181E86E2C500F2B3E3 /* VBCounterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		46F16F201E86E2C500F2B3E3 /* VBCounter WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46F16F461E86E2C500F2B3E3 /* Build configuration list for PBXNativeTarget "VBCounter WatchKit App" */;
+			buildPhases = (
+				46F16F1F1E86E2C500F2B3E3 /* Resources */,
+				46F16F451E86E2C500F2B3E3 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46F16F331E86E2C500F2B3E3 /* PBXTargetDependency */,
+			);
+			name = "VBCounter WatchKit App";
+			productName = "VBCounter WatchKit App";
+			productReference = 46F16F211E86E2C500F2B3E3 /* VBCounter WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		46F16F2F1E86E2C500F2B3E3 /* VBCounter WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46F16F421E86E2C500F2B3E3 /* Build configuration list for PBXNativeTarget "VBCounter WatchKit Extension" */;
+			buildPhases = (
+				46F16F2C1E86E2C500F2B3E3 /* Sources */,
+				46F16F2D1E86E2C500F2B3E3 /* Frameworks */,
+				46F16F2E1E86E2C500F2B3E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VBCounter WatchKit Extension";
+			productName = "VBCounter WatchKit Extension";
+			productReference = 46F16F301E86E2C500F2B3E3 /* VBCounter WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F16EF11E86E2C500F2B3E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "com.jandm-design";
+				TargetAttributes = {
+					46F16EF81E86E2C500F2B3E3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					46F16F0C1E86E2C500F2B3E3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 46F16EF81E86E2C500F2B3E3;
+					};
+					46F16F171E86E2C500F2B3E3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 46F16EF81E86E2C500F2B3E3;
+					};
+					46F16F201E86E2C500F2B3E3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					46F16F2F1E86E2C500F2B3E3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 46F16EF41E86E2C500F2B3E3 /* Build configuration list for PBXProject "VBCounter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46F16EF01E86E2C500F2B3E3;
+			productRefGroup = 46F16EFA1E86E2C500F2B3E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46F16EF81E86E2C500F2B3E3 /* VBCounter */,
+				46F16F0C1E86E2C500F2B3E3 /* VBCounterTests */,
+				46F16F171E86E2C500F2B3E3 /* VBCounterUITests */,
+				46F16F201E86E2C500F2B3E3 /* VBCounter WatchKit App */,
+				46F16F2F1E86E2C500F2B3E3 /* VBCounter WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46F16EF71E86E2C500F2B3E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F16F071E86E2C500F2B3E3 /* LaunchScreen.storyboard in Resources */,
+				46F16F041E86E2C500F2B3E3 /* Assets.xcassets in Resources */,
+				46F16F021E86E2C500F2B3E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F16F0B1E86E2C500F2B3E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F16F161E86E2C500F2B3E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F16F1F1E86E2C500F2B3E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F16F2A1E86E2C500F2B3E3 /* Assets.xcassets in Resources */,
+				46F16F281E86E2C500F2B3E3 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F16F2E1E86E2C500F2B3E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F16F3E1E86E2C500F2B3E3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46F16EF51E86E2C500F2B3E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F16EFF1E86E2C500F2B3E3 /* ViewController.swift in Sources */,
+				46F16EFD1E86E2C500F2B3E3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F16F091E86E2C500F2B3E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F16F121E86E2C500F2B3E3 /* VBCounterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F16F141E86E2C500F2B3E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F16F1D1E86E2C500F2B3E3 /* VBCounterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F16F2C1E86E2C500F2B3E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F16F3C1E86E2C500F2B3E3 /* NotificationController.swift in Sources */,
+				46F16F3A1E86E2C500F2B3E3 /* ExtensionDelegate.swift in Sources */,
+				46F16F381E86E2C500F2B3E3 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46F16F0F1E86E2C500F2B3E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46F16EF81E86E2C500F2B3E3 /* VBCounter */;
+			targetProxy = 46F16F0E1E86E2C500F2B3E3 /* PBXContainerItemProxy */;
+		};
+		46F16F1A1E86E2C500F2B3E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46F16EF81E86E2C500F2B3E3 /* VBCounter */;
+			targetProxy = 46F16F191E86E2C500F2B3E3 /* PBXContainerItemProxy */;
+		};
+		46F16F241E86E2C500F2B3E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46F16F201E86E2C500F2B3E3 /* VBCounter WatchKit App */;
+			targetProxy = 46F16F231E86E2C500F2B3E3 /* PBXContainerItemProxy */;
+		};
+		46F16F331E86E2C500F2B3E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46F16F2F1E86E2C500F2B3E3 /* VBCounter WatchKit Extension */;
+			targetProxy = 46F16F321E86E2C500F2B3E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46F16F001E86E2C500F2B3E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46F16F011E86E2C500F2B3E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46F16F051E86E2C500F2B3E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46F16F061E86E2C500F2B3E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		46F16F261E86E2C500F2B3E3 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46F16F271E86E2C500F2B3E3 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46F16F401E86E2C500F2B3E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46F16F411E86E2C500F2B3E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46F16F431E86E2C500F2B3E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "VBCounter WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jandm-design.VBCounter.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		46F16F441E86E2C500F2B3E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "VBCounter WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jandm-design.VBCounter.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		46F16F471E86E2C500F2B3E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = VBCounter_WatchKit_Extension;
+				INFOPLIST_FILE = "VBCounter WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jandm-design.VBCounter.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		46F16F481E86E2C500F2B3E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = VBCounter_WatchKit_Extension;
+				INFOPLIST_FILE = "VBCounter WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jandm-design.VBCounter.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		46F16F4B1E86E2C500F2B3E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VBCounter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jandm-design.VBCounter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		46F16F4C1E86E2C500F2B3E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VBCounter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jandm-design.VBCounter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		46F16F4E1E86E2C500F2B3E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VBCounterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jandm-design.VBCounterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VBCounter.app/VBCounter";
+			};
+			name = Debug;
+		};
+		46F16F4F1E86E2C500F2B3E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VBCounterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jandm-design.VBCounterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VBCounter.app/VBCounter";
+			};
+			name = Release;
+		};
+		46F16F511E86E2C500F2B3E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = VBCounterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jandm-design.VBCounterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VBCounter;
+			};
+			name = Debug;
+		};
+		46F16F521E86E2C500F2B3E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = VBCounterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jandm-design.VBCounterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VBCounter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46F16EF41E86E2C500F2B3E3 /* Build configuration list for PBXProject "VBCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F16F401E86E2C500F2B3E3 /* Debug */,
+				46F16F411E86E2C500F2B3E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46F16F421E86E2C500F2B3E3 /* Build configuration list for PBXNativeTarget "VBCounter WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F16F431E86E2C500F2B3E3 /* Debug */,
+				46F16F441E86E2C500F2B3E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46F16F461E86E2C500F2B3E3 /* Build configuration list for PBXNativeTarget "VBCounter WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F16F471E86E2C500F2B3E3 /* Debug */,
+				46F16F481E86E2C500F2B3E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46F16F4A1E86E2C500F2B3E3 /* Build configuration list for PBXNativeTarget "VBCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F16F4B1E86E2C500F2B3E3 /* Debug */,
+				46F16F4C1E86E2C500F2B3E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46F16F4D1E86E2C500F2B3E3 /* Build configuration list for PBXNativeTarget "VBCounterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F16F4E1E86E2C500F2B3E3 /* Debug */,
+				46F16F4F1E86E2C500F2B3E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46F16F501E86E2C500F2B3E3 /* Build configuration list for PBXNativeTarget "VBCounterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F16F511E86E2C500F2B3E3 /* Debug */,
+				46F16F521E86E2C500F2B3E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46F16EF11E86E2C500F2B3E3 /* Project object */;
+}

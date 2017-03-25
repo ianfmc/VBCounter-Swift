@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>VBCounter WatchKit App (Notification).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>VBCounter WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>VBCounter.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>46F16EF81E86E2C500F2B3E3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>46F16F0C1E86E2C500F2B3E3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>46F16F171E86E2C500F2B3E3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>46F16F201E86E2C500F2B3E3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
