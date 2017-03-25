@@ -18,10 +18,10 @@
 		46F16F281E86E2C500F2B3E3 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46F16F261E86E2C500F2B3E3 /* Interface.storyboard */; };
 		46F16F2A1E86E2C500F2B3E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46F16F291E86E2C500F2B3E3 /* Assets.xcassets */; };
 		46F16F311E86E2C500F2B3E3 /* VBCounter WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 46F16F301E86E2C500F2B3E3 /* VBCounter WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		46F16F381E86E2C500F2B3E3 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F16F371E86E2C500F2B3E3 /* InterfaceController.swift */; };
 		46F16F3A1E86E2C500F2B3E3 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F16F391E86E2C500F2B3E3 /* ExtensionDelegate.swift */; };
 		46F16F3C1E86E2C500F2B3E3 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F16F3B1E86E2C500F2B3E3 /* NotificationController.swift */; };
 		46F16F3E1E86E2C500F2B3E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46F16F3D1E86E2C500F2B3E3 /* Assets.xcassets */; };
+		46F16F541E86E38F00F2B3E3 /* ColorInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F16F531E86E38F00F2B3E3 /* ColorInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,11 +100,11 @@
 		46F16F2B1E86E2C500F2B3E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46F16F301E86E2C500F2B3E3 /* VBCounter WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "VBCounter WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46F16F361E86E2C500F2B3E3 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		46F16F371E86E2C500F2B3E3 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		46F16F391E86E2C500F2B3E3 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		46F16F3B1E86E2C500F2B3E3 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		46F16F3D1E86E2C500F2B3E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46F16F3F1E86E2C500F2B3E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46F16F531E86E38F00F2B3E3 /* ColorInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,12 +207,12 @@
 		46F16F341E86E2C500F2B3E3 /* VBCounter WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				46F16F371E86E2C500F2B3E3 /* InterfaceController.swift */,
 				46F16F391E86E2C500F2B3E3 /* ExtensionDelegate.swift */,
 				46F16F3B1E86E2C500F2B3E3 /* NotificationController.swift */,
 				46F16F3D1E86E2C500F2B3E3 /* Assets.xcassets */,
 				46F16F3F1E86E2C500F2B3E3 /* Info.plist */,
 				46F16F351E86E2C500F2B3E3 /* Supporting Files */,
+				46F16F531E86E38F00F2B3E3 /* ColorInterfaceController.swift */,
 			);
 			path = "VBCounter WatchKit Extension";
 			sourceTree = "<group>";
@@ -329,6 +329,7 @@
 				TargetAttributes = {
 					46F16EF81E86E2C500F2B3E3 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = QA7645LFA4;
 						ProvisioningStyle = Automatic;
 					};
 					46F16F0C1E86E2C500F2B3E3 = {
@@ -449,7 +450,7 @@
 			files = (
 				46F16F3C1E86E2C500F2B3E3 /* NotificationController.swift in Sources */,
 				46F16F3A1E86E2C500F2B3E3 /* ExtensionDelegate.swift in Sources */,
-				46F16F381E86E2C500F2B3E3 /* InterfaceController.swift in Sources */,
+				46F16F541E86E38F00F2B3E3 /* ColorInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -667,6 +668,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QA7645LFA4;
 				INFOPLIST_FILE = VBCounter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jandm-design.VBCounter";
@@ -679,6 +681,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QA7645LFA4;
 				INFOPLIST_FILE = VBCounter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jandm-design.VBCounter";

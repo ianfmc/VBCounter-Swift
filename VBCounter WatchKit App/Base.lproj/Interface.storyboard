@@ -1,39 +1,45 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="SUK-Ke-GQw">
+    <device id="watch42" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11055"/>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11508"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
-        <scene sceneID="aou-V4-d1y">
+        <!--ColorSwitch-->
+        <scene sceneID="7dF-Dw-HZp">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
-            </objects>
-            <point key="canvasLocation" x="220" y="345"/>
-        </scene>
-        <!--Static Notification Interface Controller-->
-        <scene sceneID="AEw-b0-oYE">
-            <objects>
-                <notificationController id="YCC-NB-fut">
+                <controller identifier="ColorSwitch" id="SUK-Ke-GQw" customClass="ColorInterfaceController" customModule="VBCounter_WatchKit_Extension">
                     <items>
-                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                        <group width="1" alignment="left" layout="vertical" id="heL-ud-f6P">
+                            <items>
+                                <label width="1" alignment="center" text="White" textAlignment="center" id="afv-q0-Fv3">
+                                    <accessibilityTraits key="accessibilityTraits" none="YES"/>
+                                    <fontDescription key="font" type="system" pointSize="48"/>
+                                </label>
+                                <button width="1" alignment="left" title="Red" id="hUW-ge-3jY">
+                                    <connections>
+                                        <action selector="changeColorToRed" destination="SUK-Ke-GQw" id="IWf-tv-gQo"/>
+                                    </connections>
+                                </button>
+                                <button width="1" alignment="left" title="Green" id="Ak2-3K-vgQ">
+                                    <connections>
+                                        <action selector="changeColorToGreen" destination="SUK-Ke-GQw" id="mez-wT-y3u"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
                     </items>
-                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
                     <connections>
-                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
-                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                        <outlet property="changeColorToGreen" destination="Ak2-3K-vgQ" id="bJE-0q-NlH"/>
+                        <outlet property="colorLabel" destination="afv-q0-Fv3" id="wXF-iz-4h2"/>
                     </connections>
-                </notificationController>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="220" y="643"/>
-        </scene>
-        <!--Notification Controller-->
-        <scene sceneID="ZPc-GJ-vnh">
-            <objects>
-                <controller id="4sK-HA-Art" customClass="NotificationController" customModuleProvider="target"/>
-            </objects>
-            <point key="canvasLocation" x="468" y="643"/>
+            <point key="canvasLocation" x="330" y="418"/>
         </scene>
     </scenes>
 </document>
