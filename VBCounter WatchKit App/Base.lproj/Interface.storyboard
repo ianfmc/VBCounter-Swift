@@ -16,24 +16,35 @@
                     <items>
                         <group width="1" alignment="left" id="tpq-ax-wBF">
                             <items>
-                                <button width="1" height="80" alignment="left" title="0" id="hUW-ge-3jY">
-                                    <color key="backgroundColor" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
-                                    <fontDescription key="font" type="system" weight="semibold" pointSize="48"/>
-                                    <connections>
-                                        <action selector="changeColorToRed" destination="SUK-Ke-GQw" id="IWf-tv-gQo"/>
-                                    </connections>
-                                </button>
+                                <group width="1" alignment="left" id="Idd-XD-pBy">
+                                    <items>
+                                        <label alignment="left" verticalAlignment="center" text="0" id="DCr-g1-gUb"/>
+                                        <button width="134" height="80" alignment="right" title="0" id="hUW-ge-3jY">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="font" type="system" weight="semibold" pointSize="48"/>
+                                            <connections>
+                                                <action selector="changeColorToRed" destination="SUK-Ke-GQw" id="IWf-tv-gQo"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
                             </items>
                         </group>
                         <group width="1" alignment="left" layout="vertical" id="heL-ud-f6P">
                             <items>
-                                <button width="1" height="80" alignment="left" title="0" id="Ak2-3K-vgQ">
-                                    <color key="backgroundColor" red="0.015686274510000001" green="0.87058823529999996" blue="0.4431372549" alpha="1" colorSpace="calibratedRGB"/>
-                                    <fontDescription key="font" type="system" weight="semibold" pointSize="48"/>
-                                    <connections>
-                                        <action selector="changeColorToGreen" destination="SUK-Ke-GQw" id="mez-wT-y3u"/>
-                                    </connections>
-                                </button>
+                                <group width="1" alignment="left" id="oAf-lg-4Qy">
+                                    <items>
+                                        <label alignment="left" verticalAlignment="center" text="0" id="RsW-0J-soa"/>
+                                        <button width="136" height="80" alignment="right" title="0" id="Ak2-3K-vgQ">
+                                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="font" type="system" weight="semibold" pointSize="48"/>
+                                            <connections>
+                                                <action selector="changeColorToGreen" destination="SUK-Ke-GQw" id="mez-wT-y3u"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
                             </items>
                         </group>
                     </items>
@@ -43,7 +54,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="330" y="418"/>
+            <point key="canvasLocation" x="329.53846153846155" y="417.15384615384619"/>
         </scene>
     </scenes>
 </document>
