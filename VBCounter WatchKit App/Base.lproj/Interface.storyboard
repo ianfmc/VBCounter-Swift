@@ -12,35 +12,41 @@
         <!--ColorSwitch-->
         <scene sceneID="7dF-Dw-HZp">
             <objects>
-                <controller identifier="ColorSwitch" id="SUK-Ke-GQw" customClass="ColorInterfaceController" customModule="VBCounter_WatchKit_Extension">
+                <controller identifier="ColorSwitch" id="SUK-Ke-GQw" customClass="MatchInterfaceController" customModule="VBCounter_WatchKit_Extension">
                     <items>
-                        <group width="1" alignment="left" id="tpq-ax-wBF">
+                        <group width="1" widthAdjustment="4" alignment="left" layout="vertical" id="tpq-ax-wBF">
                             <items>
-                                <group width="1" alignment="left" id="Idd-XD-pBy">
+                                <label width="1" alignment="left" text="Visitor" id="oMY-o9-BDT">
+                                    <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                </label>
+                                <group width="156" alignment="left" id="Idd-XD-pBy">
                                     <items>
                                         <label alignment="left" verticalAlignment="center" text="0" id="DCr-g1-gUb"/>
-                                        <button width="134" height="80" alignment="right" title="0" id="hUW-ge-3jY">
-                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <button width="120" height="60" alignment="right" title="0" id="hUW-ge-3jY">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <fontDescription key="font" type="system" weight="semibold" pointSize="48"/>
                                             <connections>
-                                                <action selector="changeColorToRed" destination="SUK-Ke-GQw" id="IWf-tv-gQo"/>
+                                                <action selector="visitorButtonPressed" destination="SUK-Ke-GQw" id="zjQ-zm-zQA"/>
                                             </connections>
                                         </button>
                                     </items>
                                 </group>
                             </items>
                         </group>
-                        <group width="1" alignment="left" layout="vertical" id="heL-ud-f6P">
+                        <group width="1" widthAdjustment="4" alignment="left" layout="vertical" id="heL-ud-f6P">
                             <items>
+                                <label alignment="left" text="Home" id="Q7x-Bw-gGP">
+                                    <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                </label>
                                 <group width="1" alignment="left" id="oAf-lg-4Qy">
                                     <items>
                                         <label alignment="left" verticalAlignment="center" text="0" id="RsW-0J-soa"/>
-                                        <button width="136" height="80" alignment="right" title="0" id="Ak2-3K-vgQ">
-                                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <button width="120" height="60" alignment="right" title="0" id="Ak2-3K-vgQ">
+                                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <fontDescription key="font" type="system" weight="semibold" pointSize="48"/>
                                             <connections>
-                                                <action selector="changeColorToGreen" destination="SUK-Ke-GQw" id="mez-wT-y3u"/>
+                                                <action selector="homeButtonPressed" destination="SUK-Ke-GQw" id="Cgo-Tc-igK"/>
                                             </connections>
                                         </button>
                                     </items>
@@ -49,12 +55,14 @@
                         </group>
                     </items>
                     <connections>
-                        <outlet property="greenButton" destination="Ak2-3K-vgQ" id="F8F-Uc-Gt3"/>
-                        <outlet property="redButton" destination="hUW-ge-3jY" id="D01-nc-gFA"/>
+                        <outlet property="homeButton" destination="Ak2-3K-vgQ" id="Ik5-BB-xA0"/>
+                        <outlet property="homeGames" destination="RsW-0J-soa" id="DNj-X3-7J8"/>
+                        <outlet property="visitorButton" destination="hUW-ge-3jY" id="URo-mW-qkw"/>
+                        <outlet property="visitorGames" destination="DCr-g1-gUb" id="yRP-Bs-1uP"/>
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="329.53846153846155" y="417.15384615384619"/>
+            <point key="canvasLocation" x="329.53846153846155" y="416.71794871794873"/>
         </scene>
     </scenes>
 </document>

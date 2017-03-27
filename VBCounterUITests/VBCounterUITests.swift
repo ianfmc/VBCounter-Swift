@@ -8,6 +8,8 @@
 
 import XCTest
 
+@testable import MatchModel
+
 class VBCounterUITests: XCTestCase {
         
     override func setUp() {

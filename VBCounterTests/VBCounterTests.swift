@@ -11,9 +11,14 @@ import XCTest
 
 class VBCounterTests: XCTestCase {
     
+    var match: MatchModel!
+    
     override func setUp() {
+
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        
+        match = MatchModel()
     }
     
     override func tearDown() {
@@ -24,6 +29,11 @@ class VBCounterTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+    }
+    
+    func testThatAddPointsWorksForVisitor {
+        match.addPoint("visitor")
+        XCTAssert(match.visitorPoints == 1)
     }
     
     func testPerformanceExample() {
