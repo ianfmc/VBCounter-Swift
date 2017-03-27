@@ -22,7 +22,7 @@
                                 <group width="156" alignment="left" id="Idd-XD-pBy">
                                     <items>
                                         <label alignment="left" verticalAlignment="center" text="0" id="DCr-g1-gUb"/>
-                                        <button width="120" height="60" alignment="right" title="0" id="hUW-ge-3jY">
+                                        <button width="120" height="52" alignment="right" title="0" id="hUW-ge-3jY">
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <fontDescription key="font" type="system" weight="semibold" pointSize="48"/>
@@ -33,6 +33,7 @@
                                     </items>
                                 </group>
                             </items>
+                            <edgeInsets key="margins" left="4" right="4" top="2" bottom="2"/>
                         </group>
                         <group width="1" widthAdjustment="4" alignment="left" layout="vertical" id="heL-ud-f6P">
                             <items>
@@ -42,7 +43,7 @@
                                 <group width="1" alignment="left" id="oAf-lg-4Qy">
                                     <items>
                                         <label alignment="left" verticalAlignment="center" text="0" id="RsW-0J-soa"/>
-                                        <button width="120" height="60" alignment="right" title="0" id="Ak2-3K-vgQ">
+                                        <button width="120" height="52" alignment="right" title="0" id="Ak2-3K-vgQ">
                                             <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <fontDescription key="font" type="system" weight="semibold" pointSize="48"/>
                                             <connections>
@@ -52,6 +53,7 @@
                                     </items>
                                 </group>
                             </items>
+                            <edgeInsets key="margins" left="4" right="4" top="2" bottom="2"/>
                         </group>
                     </items>
                     <connections>
